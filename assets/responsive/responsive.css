@@ -1,0 +1,427 @@
+@media screen and (max-width: 980px){
+    /*BACKGROUND VIDEO SECTION*/
+   
+   .container-about-game{
+       padding: 40px;
+       column-gap: 10px;
+     }
+   
+   .text-about{
+   width: 90%;
+   color: #2fe9b1 !important;
+   font-size: 2rem;
+   }
+   
+   .container-about-game h1{
+   font-size: 3rem;
+   margin-top: 10px;
+   }
+   .container-about-game p{
+   font-size: 2rem;
+   margin-top: 10px;
+   }
+   
+   .button-about a{
+   background: url(/assets/bg2.jpg);
+   padding: 5px 40px;
+   border-radius: 5px;
+   margin-top: 10px;
+   }
+   .cards {
+   
+       padding: 10px;
+       display: flex;
+       justify-content: center;
+       flex-wrap: wrap;
+       column-gap: 10px;
+       row-gap: 10px;
+       }
+       .cards .card {
+       height: 220px;
+       width: 250px;
+       }
+   
+       /*AWARDS*/
+   
+   
+   .awards{
+       padding: 20px;
+       row-gap: 20px;
+       }
+       
+       .awards form{
+       width: 90%;
+       column-gap: 10px;
+       padding: 50px;
+       } 
+       .awards form label{
+       font-size: 2rem;
+       margin-bottom: 2px;
+       }
+       
+       .awards form input{
+       font-size: 1.8rem;
+       margin-bottom: 2px;
+       border-bottom: 1px solid #2fe9b1;
+       margin-bottom: 4px;
+       }
+       
+       
+       .btn-awards{
+       background: url(/assets/bg1.jpg);
+       padding: 5px 60px;
+       border: 1px solid white;
+       border-radius: 10px;
+       }
+   
+   }
+
+
+
+@media screen and (max-width: 768px){
+ /*BACKGROUND VIDEO SECTION*/
+ .about-game{
+    width: 100%;
+    align-items: center;
+    padding: 0px;
+}
+
+.container-about-game{
+    padding: 20px;
+    column-gap: 10px;
+  }
+
+.text-about{
+width: 90%;
+color: #2fe9b1 !important;
+font-size: 2rem;
+}
+
+.container-about-game h1{
+font-size: 3rem;
+margin-top: 10px;
+}
+.container-about-game p{
+font-size: 2rem;
+margin-top: 10px;
+}
+
+.button-about a{
+background: url(/assets/bg2.jpg);
+padding: 5px 40px;
+border-radius: 5px;
+margin-top: 10px;
+}
+.cards {
+
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 10px;
+    row-gap: 10px;
+    }
+    .cards .card {
+    height: 220px;
+    width: 250px;
+    }
+
+    /*AWARDS*/
+
+
+.awards{
+    padding: 20px;
+    row-gap: 20px;
+    }
+    
+    .awards form{
+    width: 80%;
+    column-gap: 10px;
+    padding: 50px;
+    } 
+    .awards form label{
+    font-size: 2rem;
+    margin-bottom: 2px;
+    }
+    
+    .awards form input{
+    font-size: 1.2rem;
+    margin-bottom: 2px;
+    border-bottom: 1px solid #2fe9b1;
+    margin-bottom: 4px;
+    }
+    
+    
+    .btn-awards{
+    background: url(/assets/bg1.jpg);
+    padding: 5px 60px;
+    border: 1px solid white;
+    border-radius: 10px;
+    }
+
+}
+
+@media screen and (max-width: 480px){
+  /*BACKGROUND VIDEO SECTION*/
+  .about-game{
+    width: 100%;
+    align-items: center;
+    padding: 20px;
+}
+
+.container-about-game{
+
+    padding: 10px;
+    column-gap: 10px;
+  }
+
+.text-about{
+width: 90%;
+color: #2fe9b1 !important;
+font-size: .9rem;
+}
+
+.container-about-game h1{
+font-size: 2rem;
+margin-top: 0px;
+}
+.container-about-game p{
+font-size: .9rem;
+margin-top: 0px;
+}
+
+.button-about a{
+background: url(/assets/bg2.jpg);
+padding: 5px 40px;
+border-radius: 5px;
+margin-top: 10px;
+}
+
+.container-logos-link-about{
+display:none;
+}
+
+
+/*CARDS*/
+.cards {
+
+padding: 10px;
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+column-gap: 10px;
+row-gap: 10px;
+}
+.cards .card {
+height: 150px;
+width: 130px;
+}
+
+/*AWARDS*/
+
+
+.awards{
+background: url(/assets/Season15_Free_to_Play_Key_Art_B.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+padding: 10px;
+row-gap: 20px;
+}
+
+.awards form{
+width: 90%;
+column-gap: 10px;
+padding: 50px;
+} 
+.awards form label{
+font-size: 1rem;
+margin-bottom: 2px;
+}
+
+.awards form input{
+font-size: 1rem;
+margin-bottom: 2px;
+border-bottom: 1px solid #2fe9b1;
+margin-bottom: 4px;
+}
+
+
+.btn-awards{
+background: url(/assets/bg1.jpg);
+padding: 5px 40px;
+border: 1px solid white;
+border-radius: 10px;
+}
+
+/*news*/
+
+
+.card-img-top{
+transition: transform .3s ease-out;
+background-size: auto 100%;
+background-repeat: no-repeat;
+}
+.card-img-top:hover{
+transform: scale(1.05);
+}
+
+/*FOOTER*/
+
+
+
+.container-leal-items {
+justify-content: center;
+align-items: center;
+padding: 20px;
+}
+footer{
+row-gap: 20px;
+padding: 80px;
+}
+footer img{
+width: 300px;
+
+}
+.container-leal-items a{
+text-decoration: none;
+text-transform: uppercase;
+color: white;
+}
+
+.container-leal-items a:hover{
+color: #2fe9b1 !important;
+}
+
+}
+@media screen and (max-width: 360px){
+    /*BACKGROUND VIDEO SECTION*/
+    .about-game{
+        width: 100%;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .container-about-game{
+    
+        padding: 10px;
+        column-gap: 10px;
+      }
+    
+.text-about{
+    width: 90%;
+    color: #2fe9b1 !important;
+    font-size: .9rem;
+  }
+  
+  .container-about-game h1{
+   font-size: 2rem;
+   margin-top: 0px;
+  }
+  .container-about-game p{
+    font-size: .9rem;
+    margin-top: 0px;
+  }
+  
+  .button-about a{
+    background: url(/assets/bg2.jpg);
+    padding: 5px 40px;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  
+  .container-logos-link-about{
+    display:none;
+  }
+
+
+  /*CARDS*/
+  .cards {
+
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 10px;
+    row-gap: 10px;
+  }
+  .cards .card {
+    height: 150px;
+    width: 130px;
+  }
+
+  /*AWARDS*/
+ 
+  
+  .awards{
+    background: url(/assets/Season15_Free_to_Play_Key_Art_B.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px;
+    row-gap: 20px;
+  }
+
+  .awards form{
+    width: 90%;
+    column-gap: 10px;
+    padding: 10px;
+  } 
+  .awards form label{
+    font-size: .8rem;
+    margin-bottom: 2px;
+  }
+
+  .awards form input{
+    font-size: .9rem;
+    margin-bottom: 2px;
+    border-bottom: 1px solid #2fe9b1;
+    margin-bottom: 4px;
+  }
+
+  
+.btn-awards{
+    background: url(/assets/bg1.jpg);
+    padding: 5px 40px;
+    border: 1px solid white;
+    border-radius: 10px;
+  }
+
+  /*news*/
+
+
+  .card-img-top{
+    transition: transform .3s ease-out;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  }
+  .card-img-top:hover{
+    transform: scale(1.05);
+  }
+
+  /*FOOTER*/
+
+
+  
+.container-leal-items {
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px;
+  }
+  footer{
+    row-gap: 20px;
+    padding: 80px;
+  }
+  footer img{
+    width: 300px;
+   
+  }
+  .container-leal-items a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+  }
+  
+  .container-leal-items a:hover{
+    color: #2fe9b1 !important;
+  }
+  
+}

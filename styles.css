@@ -1,0 +1,316 @@
+body{
+  font-family: 'Oswald', sans-serif !important;
+  background-color: #000;
+}
+.logo-navbar{
+    width: 65px;
+}
+
+.nav-item .nav-link:hover{
+    color: rgb(49, 255, 255) !important;
+    
+    
+}
+
+.navbar-toggler{
+    background-color: #fff !important;
+    color: white;
+}
+
+.navbar-list-items{
+  background-color: #222;
+}
+
+.not-active { 
+    pointer-events: none; 
+    cursor: default; 
+} 
+
+.play-now{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 200px;
+    background-color: #fff;
+}
+
+.play-now:hover{
+ 
+    background-color: #fff127 !important;
+    transition: .2s;
+}
+
+.container-logos-link{
+    display: flex;
+    row-gap: 20px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+
+}
+.img-logo{
+    width: 200px;
+}
+
+.comunidad{
+  background: url(./assets/bg2.jpg);
+    padding: 20px 30px;
+}
+
+.cards {
+
+    padding: 20px 30px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 10px;
+  }
+  
+  .cards .instagram {
+    background: linear-gradient(173deg,#836bd9,#a8026f,#e14633,#fcbf48);
+  }
+  .cards .discord {
+    background: linear-gradient(173deg,#6574f4,#4b56f0);
+  }
+
+  .cards .youtube {
+    background-color: red;
+  }
+  
+  .cards .facebook {
+    background-color: #007aff;;
+  }
+  
+  .cards .twitter {
+    background: linear-gradient(173deg,#2fbae9,#23a3e1);
+  }
+  
+  .cards .card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    height: 300px;
+    width: 230px;
+  
+    color: white;
+    cursor: pointer;
+    transition: 400ms;
+  }
+  
+  .cards .card p.tip {
+    font-size: 1em;
+    font-weight: 700;
+  }
+  
+  .cards .card p.second-text {
+    font-size: .7em;
+  }
+  
+  .cards .card:hover {
+    transform: scale(1.1, 1.1);
+  }
+  
+  .cards:hover > .card:not(:hover) {
+    filter: blur(2px);
+    transform: scale(0.9, 0.9);
+  }
+  .tip{
+    padding: 6px;
+    border: 1px solid white;
+    border-radius: 2px;
+  }
+
+  .awards{
+    background: url(./assets/Season15_Free_to_Play_Key_Art_B.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: 40px 50px;
+    row-gap: 40px;
+  }
+.awards form{
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  column-gap: 10px;
+  padding: 70px;
+  background-color: #000000ad;
+  border-radius: 10px;
+}  
+
+.awards form label{
+  font-size: 1.4rem;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.awards form input{
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+  outline: none;
+  color: white;
+  background: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 3px solid #2fe9b1;
+  margin-bottom: 20px;
+}
+
+.btn-awards{
+  background: url(./assets/bg1.jpg);
+  padding: 10px 90px;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+
+.btn-awards:hover{
+  color: #2fe9b1;
+  background-color: black !important;
+}
+  /* .api-armas{
+    background: url(./assets/bg1.jpg);
+    position: relative;
+    padding: 20px 30px;
+  }
+
+.container-search{
+  padding: 20px 40px;
+}
+
+.input-search{
+  width: 90%;
+  outline: none;
+  padding: 4px;
+  border-radius: 6px;
+  border: 1px solid #2fe9b1;
+  font-size: 1.1rem;
+  background-color: #fff;
+}
+ */
+
+.news{
+  background: url(./assets/bg-3.jpg);
+  width: 100%;
+  background-repeat: no-repeat;
+}
+
+.list-group-item{
+  border: none !important;
+}
+.card-img-top{
+  transition: transform .3s ease-out;
+background-size: auto 100%;
+background-repeat: no-repeat;
+}
+.card-img-top:hover{
+  transform: scale(1.05);
+}
+
+.container-cards-section{
+  flex-wrap: wrap;
+  row-gap: 10px;
+}
+
+.about-game{
+  display: flex;
+position: relative;
+  width: 100%;
+  align-items: center;
+  background-color: #000;
+  z-index: -1;
+ 
+}
+.background-video{
+  width: 100%;
+
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+  filter: brightness(.5);
+  
+}
+
+.text-about{
+  width: 90%;
+  color: #2fe9b1 !important;
+  font-size: 1.5rem;
+}
+.container-about-game{
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  column-gap: 40px;
+  padding: 80px;
+}
+.container-about-game h1{
+ font-size: 5rem;
+ text-transform: uppercase;
+ color: white !important;
+ text-shadow: 2px 4px 4px #000000;
+ margin-top: 20px;
+}
+.container-about-game p{
+  font-size: 2rem;
+  text-transform: uppercase;
+  text-align: left;
+  text-shadow: 2px 4px 4px #000000;
+  margin-top: 20px;
+}
+
+.button-about a{
+  background: url(./assets/bg2.jpg);
+  padding: 10px 60px;
+  text-decoration: underline;
+  color: white;
+  text-shadow: 2px 4px 4px #000000;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.container-logos-link-about{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  column-gap: 20px;
+  margin-top: 20px;
+}
+
+.container-leal-items {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  column-gap: 10px;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+footer{
+  width: 100%;
+  text-align: left;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  row-gap: 50px;
+  background-color: #000000;
+  padding: 100px 100px 20px 100px;
+}
+footer img{
+  width: 300px;
+ 
+}
+.container-leal-items a{
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+}
+
+.container-leal-items a:hover{
+  color: #2fe9b1 !important;
+}
