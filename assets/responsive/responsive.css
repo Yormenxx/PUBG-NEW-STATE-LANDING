@@ -80,16 +80,7 @@
 
 @media screen and (max-width: 768px){
  /*BACKGROUND VIDEO SECTION*/
- .about-game{
-    width: 100%;
-    align-items: center;
-    padding: 0px;
-}
 
-.container-about-game{
-    padding: 20px;
-    column-gap: 10px;
-  }
 
 .text-about{
 width: 90%;
@@ -163,43 +154,37 @@ margin-top: 10px;
 
 @media screen and (max-width: 480px){
   /*BACKGROUND VIDEO SECTION*/
-  .about-game{
+  .text-about{
+    width: 90%;
+    color: #2fe9b1 !important;
+    font-size: .9rem;
+  }
+  .container-about-game{
     width: 100%;
     align-items: center;
-    padding: 20px;
-}
-
-.container-about-game{
-
-    padding: 10px;
-    column-gap: 10px;
+    justify-content: center;
   }
-
-.text-about{
-width: 90%;
-color: #2fe9b1 !important;
-font-size: .9rem;
-}
-
-.container-about-game h1{
-font-size: 2rem;
-margin-top: 0px;
-}
-.container-about-game p{
-font-size: .9rem;
-margin-top: 0px;
-}
+  
+  .container-about-game h1{
+   font-size: 3.3rem;
+   margin-top: 0px;
+  }
+  .container-about-game p{
+    font-size: 1.7rem;
+    margin-top: 0px;
+  }
+  .img-logo{
+    width: 200px;
+  }
 
 .button-about a{
 background: url(/assets/bg2.jpg);
 padding: 5px 40px;
 border-radius: 5px;
-margin-top: 10px;
+margin-bottom: 20px;
 }
 
-.container-logos-link-about{
-display:none;
-}
+
 
 
 /*CARDS*/
@@ -295,31 +280,32 @@ color: #2fe9b1 !important;
 }
 @media screen and (max-width: 360px){
     /*BACKGROUND VIDEO SECTION*/
-    .about-game{
-        width: 100%;
-        align-items: center;
-        padding: 20px;
-    }
 
-    .container-about-game{
-    
-        padding: 10px;
-        column-gap: 10px;
-      }
-    
-.text-about{
+  .text-about{
     width: 90%;
     color: #2fe9b1 !important;
     font-size: .9rem;
   }
+  .container-about-game{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
   
   .container-about-game h1{
-   font-size: 2rem;
+   font-size: 3rem;
    margin-top: 0px;
   }
   .container-about-game p{
-    font-size: .9rem;
+    font-size: 1.6rem;
     margin-top: 0px;
+  }
+
+  .img-logo{
+    width: 100px;
+  }
+  .container-about-game h1,.container-about-game p{
+  
   }
   
   .button-about a{
@@ -330,7 +316,7 @@ color: #2fe9b1 !important;
   }
   
   .container-logos-link-about{
-    display:none;
+    width: 20px;
   }
 
 

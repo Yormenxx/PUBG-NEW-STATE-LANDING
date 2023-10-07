@@ -1,5 +1,10 @@
+@font-face {
+  font-family:"headliner" ;
+  src: url("/assets/headliner_no_45/HeadlinerNo-45.ttf") format("truetype");
+}
+
 body{
-  font-family: 'Oswald', sans-serif !important;
+  font-family: 'oswald', sans-serif !important;
   background-color: #000;
 }
 .logo-navbar{
@@ -10,6 +15,19 @@ body{
     color: rgb(49, 255, 255) !important;
     
     
+}
+.carousel-item-title{
+  font-family: "headliner";
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 2rem;
+
+}
+
+.carousel-item-subtitle{
+  font-family: "headliner";
+  color: yellow;
+  font-size: 1.8rem;
 }
 
 .navbar-toggler{
@@ -217,51 +235,56 @@ background-repeat: no-repeat;
   row-gap: 10px;
 }
 
+
 .about-game{
-  display: flex;
-position: relative;
-  width: 100%;
-  align-items: center;
-  background-color: #000;
-  z-index: -1;
+  position: relative;
+  height: 100vh;
+
+
  
 }
-.background-video{
-  width: 100%;
-
+.video-container{
   position: absolute;
+  top: 0;
   left: 0;
-  bottom: 0;
-  z-index: -1;
+  z-index: -3;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.video-container video{
+  position: relative;
+  top: 50%;
+  left: 50%;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  transform: translate(-50%,-50%);
+  overflow: hidden;
   filter: brightness(.5);
-  
 }
 
+
+.title-game{
+  font-family: "headliner";
+  width: 100%;
+}
 .text-about{
-  width: 90%;
+  font-family: "headliner";
+  width: 100%;
   color: #2fe9b1 !important;
   font-size: 1.5rem;
 }
-.container-about-game{
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  column-gap: 40px;
-  padding: 80px;
-}
-.container-about-game h1{
+
+.container-about-game h1,.container-about-game p{
  font-size: 5rem;
  text-transform: uppercase;
  color: white !important;
  text-shadow: 2px 4px 4px #000000;
- margin-top: 20px;
 }
 .container-about-game p{
   font-size: 2rem;
-  text-transform: uppercase;
-  text-align: left;
-  text-shadow: 2px 4px 4px #000000;
-  margin-top: 20px;
+  color: #2fe9b1;
 }
 
 .button-about a{
@@ -273,14 +296,25 @@ position: relative;
   border-radius: 5px;
   margin-top: 20px;
 }
+.new-title,.text-white{
+
+  font-family: "headliner";
+  color: white;
+  text-align: center;
+  font-size: 2rem;
+
+
+}
 
 .container-logos-link-about{
+  width: 100%;
   display: flex;
-  align-items: center;
-  justify-content: center;
   flex-wrap: wrap;
+  align-items: center;
+  justify-content: start;
   column-gap: 20px;
-  margin-top: 20px;
+  row-gap: 10px;
+
 }
 
 .container-leal-items {
