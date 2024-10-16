@@ -1,6 +1,6 @@
 @font-face {
     font-family:'headliner';
-    src: url("/assets/HeadlinerNo45.ttf") format("truetype");
+    src: url("../assets/HeadlinerNo45.ttf") format("truetype");
   }
   html{
     font-family: 'heafliner' !important;
