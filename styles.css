@@ -2,9 +2,11 @@
   font-family:"headliner" ;
   src: url("/assets/HeadlinerNo45.ttf") format("truetype");
 }
-
+html{
+  font-family: 'heafliner';
+}
 body{
-  font-family: 'headliner' !important;
+  font-family: 'headliner', sans-serif !important;
   background-color: #000;
 }
 .logo-navbar{
