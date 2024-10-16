@@ -4,11 +4,12 @@
 }
 
 body{
-  font-family: 'oswald', sans-serif !important;
+  font-family: 'headliner', sans-serif !important;
   background-color: #000;
 }
 .logo-navbar{
     width: 65px;
+    padding-top: 10px;
 }
 
 .nav-item .nav-link:hover{
@@ -178,6 +179,11 @@ body{
   border-right: none;
   border-bottom: 3px solid #2fe9b1;
   margin-bottom: 20px;
+  transition: .2s ease-in-out;
+}
+
+.awards form input:focus{
+  border-bottom: 3px solid #d6ec10;
 }
 
 .btn-awards{
@@ -185,7 +191,9 @@ body{
   padding: 10px 90px;
   border: 1px solid white;
   border-radius: 10px;
+  transition: .2s ease-in-out;
 }
+
 
 .btn-awards:hover{
   color: #2fe9b1;
