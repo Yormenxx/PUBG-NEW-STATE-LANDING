@@ -3,7 +3,7 @@
     src: url("/assets/HeadlinerNo45.ttf") format("truetype");
   }
   html{
-    font-family: 'heafliner';
+    font-family: 'heafliner' !important;
   }
   body{
     font-family: 'headliner', sans-serif !important;
